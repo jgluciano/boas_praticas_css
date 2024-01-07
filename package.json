@@ -1,0 +1,16 @@
+{
+  "name": "metodologia-bem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass src/styles/ -o dist/styles/ --output-style compressed && npm run copy-html",
+    "copy-html": "copy src\\index.html dist\\",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.7"
+  }
+}
